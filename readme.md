@@ -1,10 +1,9 @@
 # Neural Network from Scratch: XOR Problem
 
-A minimal implementation of a neural network from scratch (without high-level ML frameworks) that learns the XOR function. This project demonstrates the fundamentals of neural networks including forward propagation, backpropagation, and gradient descent.
+This is a learning project focused on understanding the core concepts of neural networks rather than using pre-built training methods from frameworks like TensorFlow or PyTorch.
 
-## 🎯 Overview
 
-The XOR (exclusive OR) problem is a classic example of a non-linearly separable problem that requires a multi-layer perceptron. A single-layer perceptron cannot solve XOR, making it a perfect learning exercise for understanding neural networks.
+## 🔧 Implementation Details
 
 **XOR Truth Table:**
 ```
@@ -37,16 +36,6 @@ Input (x1, x2) | Output
 - Python 3.7+
 - NumPy
 
-### Installation
-
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd xor
-
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ### Run
 
@@ -104,11 +93,3 @@ This project was created to understand neural networks at the most fundamental l
 - **Learning Rate:** 0.5
 - **Epochs:** 30,000 (with early stopping)
 - **Initialization:** Tests multiple random seeds to find optimal starting weights
-
-## 📝 Notes
-
-This is a learning project focused on understanding the core concepts of neural networks rather than using pre-built training methods from frameworks like TensorFlow or PyTorch. It's an excellent starting point for anyone wanting to understand how neural networks work under the hood.
-
-## 📄 License
-
-This project is open source and available for educational purposes.
